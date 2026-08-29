@@ -33,7 +33,6 @@ htmlcov/
 .tox/
 
 # IDE
-.vscode/settings.json
 .idea/
 *.swp
 *.swo
@@ -44,10 +43,10 @@ htmlcov/
 data/
 
 # Secrets / local config
-.env
-.env.local
 *.pem
 *.key
 
 # Logs
 *.log
+config.bat
+node_modules
