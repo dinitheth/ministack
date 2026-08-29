@@ -5,6 +5,7 @@ Routes requests to service handlers based on AWS headers, paths, and query param
 Compatible with AWS CLI, boto3, and any AWS SDK via --endpoint-url.
 """
 
+import utils.session
 import argparse
 import asyncio
 import base64
